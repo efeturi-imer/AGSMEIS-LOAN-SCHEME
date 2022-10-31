@@ -97,7 +97,7 @@ header h2 span{
 
 .sign-in-featutes a+a{
     position: relative;
-    width: 70%;
+    width: 80%;
     height: 5vh;
     background: var(--bg-color);
     display: flex;
@@ -636,6 +636,8 @@ header h2 span{
         top: 11%;
     }
 
+    /* section box 3 */
+
     .section-box-3{
         width: 100%;
     }
@@ -658,6 +660,8 @@ header h2 span{
         left: 2em;
         top: 17em;
     }
+
+    /* section- box4 */
 
     .section-box4{
         width: 100%;
@@ -701,3 +705,98 @@ header h2 span{
     }
 
 } 
+
+@media (max-width: 570px){
+    .section-box img{
+        display: none;
+    }
+
+    .footer{
+        width: 100%;
+        bottom: -55em;
+        height: 150px;
+    }
+
+    .support-box,.social-media-box,.contact-box{
+        position: relative;
+        right: -5%;
+        bottom: -15;
+    }
+
+    .section-box4{
+        width: 100%;
+        top: 55em;
+        height: 150px;
+    }
+
+    .o-p-t-text{
+        display: none;
+    }
+
+    .section-box-3{
+        width: 100%;
+    }
+
+    .faq-text{
+        width: 85%;
+        top: 40em;
+    }
+
+    .faq-text h5{
+        font-size: 20px;
+    }
+
+    .faq-text p{
+        font-size: 15px;
+    }
+
+    .f-a-q{
+        width: 100%;
+        height: 30vh;
+    }
+
+    .f-a-q h1{
+        width: 100%;
+        font-size: 16px;
+        top: 31em;
+        left: 1em;
+        font-size: 25px;
+    }
+
+    .section-box2 img{
+        width: 100%;
+        height: 50vh;
+        top: 16em;
+    }
+
+    .section-box2{
+        position: relative;
+        top: 20em;
+    }
+
+    .what-is-agsmeis{
+        top: 15em;
+    }
+
+    .main-box1{
+        position: relative;
+        right: 15;
+    }
+
+    header h2{
+        width: 100%;
+        position: relative;
+        left: 10;
+    }
+
+    .o-p-t-box img{
+        position: relative;
+        left: -70;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+
+}
